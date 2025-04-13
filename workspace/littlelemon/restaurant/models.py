@@ -18,3 +18,4 @@ class Menu(models.Model):
 
     def __str__(self):
         return f'{self.title}: ${self.price:.2f}'
+    
